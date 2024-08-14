@@ -34,7 +34,7 @@ VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification proj
          > pip3 install torch==2.2.2 torchvision==0.17.2
          >```
          
-   5.2 Or CPU only
+   5.2 Or without CUDA
       - Windows:
          >```
          > pip3 install torch==2.2.2 torchvision==0.17.2
