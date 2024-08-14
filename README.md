@@ -168,7 +168,7 @@ There are three Convolutional Neural Network (CNN) models available:
 
 ### cnn_v1 --demo result examples
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_football.png' width="900">
-<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_fps.png' width="1010">
+<img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_fps.png' width="900">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_racing.png' width="900">
 
 
