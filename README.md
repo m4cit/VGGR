@@ -167,7 +167,7 @@ There are three Convolutional Neural Network (CNN) models available:
 3. *cnn_v3* | F-score of **64.58 %**
 
 
-### cnn_v1 --demo examples
+### cnn_v1 --demo result examples
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_football.png' width="900">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_fps.png' width="900">
 <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/perf_v1_racing.png' width="900">
