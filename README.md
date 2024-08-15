@@ -181,7 +181,10 @@ The train dataset also contained augmentations (not in the provided zip-file).
 ### Augmentation
 To augment the train data with *jittering*, *inversion*, and *5 part cropping*, copy-paste the metadata of the images into the _**augment.csv**_ file located in _**./data/train/metadata/**_.
 
-Then run `python VGGR.py --augment`.
+Then run
+>```
+>python VGGR.py --augment
+>```
 
 The metadata of the resulting images are subsequently added to the _**metadata.csv**_ file.
 
