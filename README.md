@@ -1,10 +1,10 @@
-# VGGR
+# VGGR (Video Game Genre Recognition)
 <p align="center">
   <img src='https://raw.githubusercontent.com/m4cit/VGGR/main/gallery/icon.png' height="150">
 </p>
 Have you ever seen gameplay footage and wondered what kind of video game it is from? No? Well, do not not wonder anymore.
 <br /><br />
-VGGR (Video Game Genre Recognition) is a Deep-Learning Image Classification project, answering questions nobody is asking.
+VGGR is a Deep-Learning Image Classification project, answering questions nobody is asking.
 
 
 
