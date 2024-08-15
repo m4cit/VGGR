@@ -22,7 +22,7 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
 
 4. Unzip the train, test, and validation img files inside their respective folders located in **./data/**.
 
-5. Install [PyTorch](https://pytorch.org/get-started/locally/)
+5. Install [PyTorch](https://pytorch.org/get-started/locally/).
 
    5.1 Either with CUDA
       - Windows:
@@ -44,12 +44,12 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
          > pip3 install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cpu
          >```
    
-6. Navigate to the VGGR main directory
+6. Navigate to the VGGR main directory.
    >```
    > cd VGGR
    >```
 
-7. Install dependencies
+7. Install dependencies.
    >```
    > pip install -r requirements.txt
    >```
