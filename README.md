@@ -6,7 +6,7 @@ Have you ever seen gameplay footage and wondered what kind of video game it is f
 <br /><br />
 VGGR is a Deep-Learning Image Classification project, answering questions nobody is asking.
 
-
+<br />
 (new repo due to a glitch? in the old one)
 
 
