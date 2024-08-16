@@ -102,7 +102,7 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
 
 **--predict** | Predict / inference mode
 
-**--input (-i)** | File input for predict mode (html link or image path)
+**--input (-i)** | File input for predict mode (html link or local image path)
 
 **--model (-m)** | Model selection
   * cnn_v1 (default)
