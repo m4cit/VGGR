@@ -3,6 +3,7 @@ from torch.utils.data import Dataset
 import torchvision.transforms.v2 as T
 from PIL import Image
 import pandas as pd
+import requests
 
 
 class TrainDataset(Dataset):
@@ -88,7 +89,12 @@ class CustomTestDataset(Dataset):
         return 1
     
     def __getitem__(self, index):
-        img = Image.open(self.file).convert('RGB')
+        # html image link or image path
+        if (self.file).startswith('http') or (self.file).startswith('https'):
+            img = Image.open(requests.get(self.file, stream=True).raw).convert('RGB')
+        else:
+            img = Image.open(self.file).convert('RGB')
+        
         if img.size != (720, 1280):
             img = self.resize(img)
         img = self.transform(img)
