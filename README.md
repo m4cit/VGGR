@@ -59,10 +59,15 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
 
 
 ## Genres
+### Available
 - Football / Soccer
 - First Person Shooter (FPS)
 - 2D Platformer
 - Racing
+
+### In the Works
+- Real-time Strategy (RTS)
+
 
 ## Games
 ### Train Set
