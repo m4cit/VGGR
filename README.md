@@ -150,7 +150,11 @@ or
 >```
 or
 >```
->python VGGR.py --predict -m cnn_v1 -d cpu -i path/to/img.png
+>python VGGR.py --predict -i https://website/img.png
+>```
+or
+>```
+>python VGGR.py --predict -i path/to/img.png -m cnn_v1 -d cpu
 >```
 
 #### Training
