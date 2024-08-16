@@ -2,3 +2,4 @@ tqdm==4.65.0
 pandas==2.2.2
 Pillow==9.5.0
 torcheval==0.0.7
+requests==2.31.0
