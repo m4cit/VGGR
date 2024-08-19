@@ -47,9 +47,6 @@ class TestDataset(Dataset):
         game = self.meta.loc[index, 'game']
         img = Image.open(file).convert('RGB')
         
-        # if img.size != (252, 448):
-        #     img = self.resize(img)
-        
         if img.size != (720, 1280):
             img = self.resize(img)
             
