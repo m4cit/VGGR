@@ -67,10 +67,6 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
 - 2D Platformer
 - Racing
 
-### In the Works
-- Real-time Strategy (RTS)
-
-
 ## Games
 ### Train Set
 - FIFA 06
