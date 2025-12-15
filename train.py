@@ -50,7 +50,7 @@ def train_model(model, epochs: int, batch_size: int, learn_rate: float, device=d
     
     # Load existing model to avoid training entirely new model
     if os.path.isfile(f'./models/saved/{model.__class__.__name__}.pth'):
-        checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth')
+        checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth', map_location=device)
         model.load_state_dict(checkpoint['state_dict'])
         model = model.to(device)
         optimizer.load_state_dict(checkpoint['optimizer'])
@@ -135,3 +135,4 @@ def train_model(model, epochs: int, batch_size: int, learn_rate: float, device=d
         print(f' > Epoch: {best_epoch}\n')
     print(f'\n{color.GREEN}Trained {model.__class__.__name__} successfully!{color.END}\n')
     
+
