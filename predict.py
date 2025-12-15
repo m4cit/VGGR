@@ -18,7 +18,7 @@ def predict(model, device, input_file):
     with torch.inference_mode():    
         if os.path.isfile(f'./models/saved/{model.__class__.__name__}.pth'):   
             # Loading trained model
-            checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth')
+            checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth', map_location=device)
             model.load_state_dict(checkpoint['state_dict'])
             model = model.to(device)
             model.eval()
@@ -46,7 +46,7 @@ def demo(model, device):
     with torch.inference_mode():    
         if os.path.isfile(f'./models/saved/{model.__class__.__name__}.pth'):   
             # loading trained model
-            checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth')
+            checkpoint = torch.load(f'./models/saved/{model.__class__.__name__}.pth', map_location=device)
             best_epoch = checkpoint['best_epoch']
             model.load_state_dict(checkpoint['state_dict'])
             model = model.to(device)
@@ -98,4 +98,5 @@ def demo(model, device):
         print(f'Correct predictions: {correct} / {len(test_data)}')
         print(f'F1 score: {round(f1.item(), 4)*100} %')
         print(f'Best epoch: {best_epoch}')
+
 
