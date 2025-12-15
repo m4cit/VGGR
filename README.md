@@ -9,7 +9,7 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
 
 
 ## Requirements
-1. Install **Python 3.10** or newer.
+1. Install **Python 3.14** or newer.
 
 2. Clone the repository with
    >```
