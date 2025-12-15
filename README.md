@@ -27,21 +27,21 @@ VGGR is a Deep-Learning Image Classification project, answering questions nobody
    5.1 Either with CUDA
       - Windows:
          >```
-         > pip3 install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+         > pip3 install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu130
          >```
       - Linux:
          >```
-         > pip3 install torch==2.2.2 torchvision==0.17.2
+         > pip3 install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu130
          >```
          
    5.2 Or without CUDA
       - Windows:
          >```
-         > pip3 install torch==2.2.2 torchvision==0.17.2
+         > pip3 install torch==2.9.1 torchvision==0.24.1
          >```
       - Linux:
          >```
-         > pip3 install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cpu
+         > pip3 install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cpu
          >```
    
 6. Navigate to the VGGR main directory.
